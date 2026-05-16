@@ -1,5 +1,6 @@
 name: Build Sanna APK
 on: [push]
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
